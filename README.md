@@ -2,9 +2,25 @@
 
 ## 🚀 About Me
 
-I am Dylan Bryan, a **Full-Stack Developer** with a love for the back end. I am currently working on my Data Science and Machine Learning skills and am looking for a job in the tech industry. I recently graduated from the University of Maryland Global Campus with a Bachelors in **Computer Science and Engineering**.
+I am Dylan Bryan, a **Full-Stack Developer** with a love for the back end. Lately I have become obsessed withI am currently working on my Data Science and Machine Learning skills and am looking for a job in the tech industry. I recently graduated from the University of Maryland Global Campus with a Bachelors in **Computer Science and Engineering**.
 
 The front end library that I have the most experience with is **React**, but I am working on gathering more experience with Angular and Vue. I have also recently gained experience working with **Typescript**, which I rather enjoy.
+
+## Plan of Action to Work Toward Goals
+
+My goal over the next month is to become proficient in all the major MVC tech stacks that implement server-side programming languages. The big ones would be:
+
+- Java using Quarkus and Docker with Vue as the client UI   
+    - Enterprise grade web application mimicking a business
+- Python with Django and Wagtail 
+    - Administrative CMS geared toward specific feature (Perhaps a Specific SaaS)
+- PHP with Laravel and Drupal 
+    - Blog style web application to mimic typical use case
+- Ruby with Rails 
+    - Committing time to assist in the development of devdocs.io, as it has 
+    helped me out temendously when I needed it
+    
+  I plan to put this all together using microservices and Docker to the best of my abilities, while working to intergrate the applications to demonstrate a real world use case. Kubernetes, Docker and Docker hub will play a large role in this.
 
 ## 🏅 Achievements
 
