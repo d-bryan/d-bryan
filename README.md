@@ -60,15 +60,13 @@ all the major MVC tech stacks that implement server-side
 programming languages. The big ones would be:
 
 - Java using Quarkus Gravvl VM with Docker using Vue as the client UI
-  - Enterprise grade REST API for a Casino Game, Vue will be the browser client for the game while the mobile applications
-  will make use of the API.
-- Python with Django and Wagtail
-  - Administrative CMS for a marketing company managing its clients
+  - Enterprise grade REST API for an Ecommerce Platform the company runs, with admin dashboard for managing the other sites, Vue will be the browser client for the shop. 
+- Python with Django or Wagtail. Sub-brand the company owns, networked in to parent company through API
+  - Administrative CMS for a marketing company managing its clients, utilizing the data collected from the entire monorepo to retarget ads to the right clients.
 - PHP with Laravel
-  - Blog style web application to mimic typical use case
-  - Potential targeting api for the rest api - as it would proxy requests through the laravel app to collect the data. This would be a good way to test the performance of the api.
+  - Media-brand the commpany owns, directs Social media for all brands while monitoring sales channels. 
 - Ruby with Rails
-  - This will be the website for the casino game, utilizing the data collected from the entire monorepo to retarget ads to the right clients.
+  - HR company the within the sphere of parent company. Finds staffing for all four brands.
 
 ## Additional Personal Projects
 
