@@ -6,21 +6,107 @@ I am Dylan Bryan, a **Full-Stack Developer** with a love for the back end. Latel
 
 The front end library that I have the most experience with is **React**, but I am working on gathering more experience with Angular and Vue. I have also recently gained experience working with **Typescript**, which I rather enjoy.
 
-## Plan of Action to Work Toward Goals
+## Plan of Action To Demonstrate Complete Understanding of Full-Stack Web Development
 
-My goal over the next month is to become proficient in all the major MVC tech stacks that implement server-side programming languages. The big ones would be:
+Most people upon graduation become stagnant, or get comfortable with a single language. I am not one of those people, and I
+have a complete fascination with the web. My passion for learning new technologies and building web applications leads me to
+lean more about how to solve problems and how to build a better user experience.
 
-- Java using Quarkus and Docker with Vue as the client UI   
-    - Enterprise grade web application mimicking a business
-- Python with Django and Wagtail 
-    - Administrative CMS geared toward specific feature (Perhaps a Specific SaaS)
-- PHP with Laravel and Drupal 
-    - Blog style web application to mimic typical use case
-- Ruby with Rails 
-    - Committing time to assist in the development of devdocs.io, as it has 
-    helped me out temendously when I needed it
-    
-  I plan to put this all together using microservices and Docker to the best of my abilities, while working to intergrate the applications to demonstrate a real world use case. Kubernetes, Docker and Docker hub will play a large role in this.
+Over the past decade (less for some of the items on the list) the programming languages, runtime environments, frameworks,
+virtual machines, and general infrastructure below have become the most critical to business growth.
+
+The following is a roadmap of the steps I will take to demonstrate complete understanding of full-stack web development. I will be using a combination of the following technologies, which are various parts of different stacks:
+
+### Microservice Architecture (Autoscaling)
+
+- Docker (Docker, Builder, etc.)
+- Kubernetes (Kubectl, Minikube, Helm)
+- Terraform (Ansible, OpenShift, etc.)
+- AWS, GCP, Azure (Cloud in General)
+
+### Back End Tooling
+
+- PHP (Laravel, Symfony, Drupal etc)
+- Java (Spring, Glassfish, etc)
+- Python (Django, Flask, etc)
+- Go (Gin, Beego, Iris, Echo, Fiber, etc)
+- Rust (stdweb, Yew, Percy, Seed, Smithy, etc)
+- NodeJs (Express, Fastify etc)
+- Ruby (Rails, Sinatra, etc)
+
+### Front End Tooling
+
+- HTML (Templates, Pug, Jade, Twig, Blade, etc)
+- CSS (Bootstrap, Materialize, etc),
+- JavaScript (React, Vue, Angular, Svelte, etc)
+
+### Mobile Application Development
+
+- Swift (iOS)
+- Kotlin (Android)
+
+#### Optional to Save Time
+
+- React Native (cross-platform mobile apps)
+- Dart (cross-platform mobile apps)
+
+## Quick Overview of the Complete Enterprise Suite of Applications
+
+- Demonstrate the ability to build Enterprise Applications with `real world` potential
+- Build applications with new technologies proving my skills as a developer
+
+My goal over the next month is to become proficient in
+all the major MVC tech stacks that implement server-side
+programming languages. The big ones would be:
+
+- Java using Quarkus Gravvl VM with Docker using Vue as the client UI
+  - Enterprise grade REST API for a Casino Game, Vue will be the browser client for the game while the mobile applications
+  will make use of the API.
+- Python with Django and Wagtail
+  - Administrative CMS for a marketing company managing its clients
+- PHP with Laravel
+  - Blog style web application to mimic typical use case
+  - Potential targeting api for the rest api - as it would proxy requests through the laravel app to collect the data. This would be a good way to test the performance of the api.
+- Ruby with Rails
+  - This will be the website for the casino game, utilizing the data collected from the entire monorepo to retarget ads to the right clients.
+
+## Additional Personal Projects
+
+These other projects are new technologies that speed up the request/response cycle for web pages that I have wanted
+to get my hands on for some time. It will be beneficial to my career to become proficient, if not fluent, with
+these technologies
+
+- [NestJs](https://nestjs.com/) (MVC NodeJS Event Based Microservice Framework), will implement the front end in [Angular](https://angular.io/)
+    Has built in support for:
+  - Middleware, Guards Interceptors, Adapters, Custom Decorators and Pipes
+  - By default, it installs `[Express](https://expressjs.com/)`, which most of us are familiar with, but if you want something much faster and are
+  willing to write a few of the pieces of Middleware for it, `[Fastify](https://www.fastify.io/)` will *dramatically* increase your `Request/Response` times, thus imporving page load times. Have a look at a comparison test where the Author achieved [3 - 4 seconds improvement](https://facsiaginsa.com/nodejs/comparing-fastify-vs-express) when using Fastify over Express. (Aginsa, B., 2022)
+  - Websocket for your choice of implementing a socket gateway with either Socket.IO or WS
+  - Various options for databases from Redis,
+  - Asynchronous synchronous Singleton request/response cycle due to Node's single threading. But they have made
+  it secure through the use of Providers and instances.
+  - Angular is a tried and true component based framework. With all the necessary pieces for building the
+  application included. No need to look for additional packages or tooling to make it do what you need it to do.
+
+- [RedwoodJS](https://redwoodjs.com/) (MVC NodeJS Event Based Microservice Framework) and [React](https://reactjs.org/docs/getting-started.html)
+    Has built in support for:
+  - [Prisma](https://www.prisma.io/) for Models
+  - [GraphQl](https://graphql.org/) for Data
+  - Routing (innovative new way which makes React Router look like old news)
+  - SEO and Meta tags without React Helmet
+  - Serverless functions for when you want to deploy it to the cloud
+  - [Storybook JS](https://storybook.js.org/) for components, theming, documentation, testing (Purposely for Components) and more
+  - Toast notifications
+  - Custom Webhooks
+  - And more.. Redwood seems to really hit the proverbial nail on the head, and I look forward to working with this technology in the forseeable future
+  - React is a JavaScript library for building out User Interfaces. It does not come with as much out of the box as Angular does, but the team at Redwood have taken care of everything for use with this framework
+
+- [Go Buffalo](https://gobuffalo.io/) MVC framework (Rails for Go), [Relic](https://newrelic.com/) for Monitoring, [neo4j](https://neo4j.com/) for database with GUI for graph network
+    Has built in support for:
+  - Buffalo, one of the First complete web frameworks for the Go language. It comes complete with modules that allow you to implement a complete MVC application with plug ins, or you can slim it down to just the REST API and choose speed. Go's concurrency will tremendously speed up the number of requests per second the server can handle, and with the
+  - New Relic is the monitoring tool that will allow us to keep an eye on the infrastructure, which devices are doing what on the network with what part of the application. There is also Kubernetes monitoring, code streams, log management and more.
+  - [Cipher](https://neo4j.com/docs/cypher-manual/current/introduction/) is the query language that is used for performing CRUD operations on the Graph database.
+  - neo4j has many tools that it can use to interact with the graph database, [Bloom](https://neo4j.com/docs/bloom-user-guide/current/about-bloom/) is the complete set of tools for you to interact with the graph database is a visual manner, whether that is adjusting user roles and looking at business views or just performing visual CRUD operations. [neo4j Browser](https://neo4j.com/docs/browser-manual/current/visual-tour/) is a similar tool to Bloom just implemented in the browser for convenience.
 
 ## 🏅 Achievements
 
